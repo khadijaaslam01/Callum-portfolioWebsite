@@ -23,18 +23,18 @@
   <body>
     <header class="header">
       <nav class="navbar navbar-dark bg-transparent">
-        <a class="navbar-brand col-5 text-center fw-bolder fs-1" href="#"
+        <a class="navbar-brand col-4 text-start fw-bolder fs-1 ms-5" href="#"
           >CALLUM</a
         >
         <a
-          class="nav-link text-end fs-5 fw-bold col-6 text-white d-md-block d-none"
+          class="nav-link text-end fs-5 fw-bold col-6 text-white d-md-block d-none me-5"
           href="#"
         >
           <i class="fa-solid fa-phone"></i> (060) 444 434 444</a
         >
 
         <button
-          class="navbar-toggler text-white"
+          class="navbar-toggler text-white border-0 me-5"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -83,24 +83,39 @@
             <a
               class="nav-link text-center fs-5 fw-bold link text-white"
               href="#section--7"
-              >Contact ME</a
+              >Contact Me</a
             >
           </div>
         </div>
       </nav>
 
-      <div class="header-content">
-        <div class="fs-2 text-white">HI, I'M A FREELANCER</div>
-        <div class="text fw-bold text-white">DEVELOPER</div>
-        <div class="fs-2 text-white mb-5">based in Los Angeles, USA.</div>
+      <div class="row">
+        <div class="header-content">
+          <div class="fs-2 text-white">HI, I'M A FREELANCER</div>
+          <div class="text fw-bold text-white">DEVELOPER</div>
+          <div class="fs-2 text-white mb-5">based in Los Angeles, USA.</div>
 
-        <a
-          class="button text-white"
-          target="_blank"
-          href="https://github.com/khadijaaslam01"
-        >
-          View My Work</a
-        >
+          <a
+            class="button text-white col-3"
+            target="_blank"
+            href="https://github.com/khadijaaslam01"
+          >
+            View My Work
+          </a>
+        </div>
+        <div class="row">
+          <a
+            class="animation fs-1 text-dark text-white text-center"
+            style="
+              margin-top: 18%;
+              animation-name: up-and-down;
+              animation-duration: 1s;
+              animation-iteration-count: infinite;
+            "
+            href="#section--1"
+            ><i class="fa-solid fa-arrow-down"></i
+          ></a>
+        </div>
       </div>
     </header>
     <!-- about me section -->
@@ -869,6 +884,25 @@
         </div>
       </div>
     </section>
+    <footer>
+      <div class="row text-center bg-dark">
+        <div class="mt-5 mb-5 d-flex">
+          <div class="col-6 fs-5 text-white">
+            Copyright © 2023
+            <strong class="text-decoration-underline text-warning"
+              >Callum.</strong
+            >
+            All Rights Reserved.
+          </div>
+          <div class="col-6 fs-5 text-white">
+            Designed by
+            <strong class="text-decoration-underline text-warning"
+              >Harnish Design</strong
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- js script -->
     <script src="index.html"></script>
 

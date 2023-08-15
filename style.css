@@ -17,7 +17,11 @@
 }
 .button {
   text-decoration: none;
-  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
   text-align: center;
   cursor: pointer;
   background-color: #ffc107;
@@ -191,7 +195,15 @@
 .section__title--testimonials {
   margin-bottom: 4rem;
 }
-
+@keyframes up-and-down {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+    margin-top: 19%;
+  }
+}
 /* for medium screen */
 @media (max-width: 1000px) {
   .text {
