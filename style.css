@@ -60,7 +60,27 @@
   height: auto;
 }
 .text-portfolio {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+.Portfolio {
+  height: 300px;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+}
+.Portfolio-content {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin-left: 50px;
+}
+
+.Portfolio:hover {
+  transform: scale(1.1);
+}
+
+.Portfolio:hover .Portfolio-content {
+  opacity: 1;
 }
 .logo-bulb {
   font-size: 400px;
@@ -204,6 +224,7 @@
     margin-top: 19%;
   }
 }
+
 /* for medium screen */
 @media (max-width: 1000px) {
   .text {
