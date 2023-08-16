@@ -1,7 +1,7 @@
 .header {
   padding: 0 3rem;
   height: 100vh;
-  background-image: url(/img/background.jpeg);
+  background-image: url(https://www.technewstoday.com/wp-content/uploads/2022/12/Lenovo-Laptop-Wont-Turn-On-.jpg);
   background-size: cover;
 }
 .link:hover {
@@ -72,7 +72,7 @@
   position: absolute;
   opacity: 0;
   transition: opacity 0.3s;
-  margin-left: 50px;
+  margin-left: 55px;
 }
 
 .Portfolio:hover {
